@@ -1,0 +1,137 @@
+
+
+/* Reset some default styles and apply a simple font */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a basic container to center page content */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Form styles (for registration and login pages) */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Shopping cart styles */
+
+.shopping-cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shopping-cart li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-cart button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #bfd783;;
+    color: rgb(162, 0, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.book,.login,.registration,.shopping-cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #bfd783;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
